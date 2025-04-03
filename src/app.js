@@ -15,9 +15,9 @@ window.onload = function () {
   let what = ['mi tarea', 'el teléfono', 'la taza de café', 'los lentes'];
   let when = ['antes de clases', 'mientras dormía', 'hace una semana', 'en el jardín'];
   let frase = getRandomArray(who) + ' ' + getRandomArray(action) + ' ' + getRandomArray(what) + ' ' + getRandomArray(when);
-  document.getElementById("excuse").innerHTML = frase;
-  document.getElementById("titulo").innerHTML = "Oh no! No sabes lo que pasó....";
   let coloresBonitos = ['#FDEBD0', '#D6EAF8', '#D5F5E3', '#FADBD8', '#EBDEF0', '#FFF9C4', '#E1F5FE'];
+  document.getElementById("titulo").innerHTML = "Oh no! No sabes lo que pasó....";
+  document.getElementById("excuse").innerHTML = frase;
   document.getElementById("fondo").style.backgroundColor = getRandomArray(coloresBonitos);
 
 };
